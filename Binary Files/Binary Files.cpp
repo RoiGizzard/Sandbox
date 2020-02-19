@@ -2,7 +2,11 @@
 #include <fstream>
 using namespace std;
 
+
+// See compilation warnings
+#pragma pack(show)
 #pragma pack(push, 1)
+#pragma pack(show)
 struct Person
 {
     char name[50];
