@@ -17,6 +17,9 @@ auto test2() -> decltype(get())
 }
 
 int main()
+{
+    auto value = 7;
+    std::cout << value << std::endl;
 
     auto text = "Hello";
     std::cout << text << std::endl;
